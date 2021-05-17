@@ -1,0 +1,26 @@
+2021-03-20 20:01:49,575 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2021-03-20 20:01:49,580 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'config_helper']
+2021-03-20 20:01:49,582 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
+2021-03-20 20:01:49,588 INFO     root            Display format: "default json"
+2021-03-20 20:01:49,589 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "default",
+    "properties": {
+      "core": {
+        "account": "jaehun.lee@woowahan.com",
+        "disable_usage_reporting": "False"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.a0AfH6SMCF2HjCWWfQVuox1A7Bw4d0ZKibZqInQ4LJiGcSvJ9ehSruMDmJQJCXfCB5zGBpS00k9YmROYI3cf2GSeHRiSHB5n9kzAEZcOLkzg0gdnh5pVnmvx2_g51S59G3OJUBjd8PT2RB5gNY5GYyjJUzqN6MP_3YEUgq",
+    "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjZhOGJhNTY1MmE3MDQ0MTIxZDRmZWRhYzhmMTRkMTRjNTRlNDg5NWIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzMjU1NTk0MDU1OS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF1ZCI6IjMyNTU1OTQwNTU5LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE2NDY2MDQxODI0OTQ2Mjk0NzAwIiwiaGQiOiJ3b293YWhhbi5jb20iLCJlbWFpbCI6ImphZWh1bi5sZWVAd29vd2FoYW4uY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJvYzFuRnpoMVVPSmE3RzZZVk5KcC13IiwiaWF0IjoxNjE2MjM4MDg4LCJleHAiOjE2MTYyNDE2ODh9.LApzY-FaQ37J7riYtqZyH8CZf4PeKc3v3UE-25pGhqLDOoUW3ikL8H5lDM2bcYRSLXSYYBeYtRme2CMZVJ42PB89u9qj6fZfpK_uQTEWLBJSkB2MI7E8V21CZLKDUaO4evZ3RIJcBq7xAe4ymVsrU-zS5u7mtt3mWc-Bf_j5Xbxp1e4eLs8-UZC-DQLY6ewzPhAzNIPNOTf_IK3qnSFVUmWxPsz-yd4WOf9TNEJHZ7TNHXEN2XEd5bPzO27210TjL6NEabe5betoJ-jEhMok3Li9b_cYzuxRWkP7WnMl3yHaqc0WYuvn_wJzR93d_1KehMrgYry7zW4cKF_Xnm232A",
+    "token_expiry": "2021-03-20T12:01:27Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/Users/leejaehoon/.config/gcloud/config_sentinel"
+  }
+}
+2021-03-20 20:01:49,589 INFO     ___FILE_ONLY___ 
+
+2021-03-20 20:01:49,597 DEBUG    root            Metrics reporting process started...

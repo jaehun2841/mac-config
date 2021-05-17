@@ -1,0 +1,15 @@
+2021-03-14 02:03:59,676 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2021-03-14 02:03:59,678 ERROR    root            (gcloud.projects) Command name argument expected.
+2021-03-14 02:03:59,691 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'get_iam_policy']
+2021-03-14 02:03:59,694 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'update']
+2021-03-14 02:03:59,696 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
+2021-03-14 02:03:59,698 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'undelete']
+2021-03-14 02:03:59,716 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'add_iam_policy_binding']
+2021-03-14 02:03:59,721 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'create']
+2021-03-14 02:03:59,724 DEBUG    root            No implementation for release track [GA] for element: [/Users/leejaehoon/Downloads/google-cloud-sdk/lib/surface/projects/move]
+2021-03-14 02:03:59,734 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'get_ancestors']
+2021-03-14 02:03:59,747 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'set_iam_policy']
+2021-03-14 02:03:59,760 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'remove_iam_policy_binding']
+2021-03-14 02:03:59,763 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'delete']
+2021-03-14 02:03:59,766 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'list']
+2021-03-14 02:03:59,775 DEBUG    root            Metrics reporting process started...

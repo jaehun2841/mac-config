@@ -1,0 +1,27 @@
+2021-03-26 12:54:05,718 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2021-03-26 12:54:05,724 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'config_helper']
+2021-03-26 12:54:05,726 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
+2021-03-26 12:54:05,788 DEBUG    google_auth_httplib2 Making request: POST https://oauth2.googleapis.com/token
+2021-03-26 12:54:06,194 INFO     root            Display format: "default json"
+2021-03-26 12:54:06,195 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "default",
+    "properties": {
+      "core": {
+        "account": "jaehun.lee@woowahan.com",
+        "disable_usage_reporting": "False"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.a0AfH6SMASiAYVYGXJsU3YzEv8KAYFhmmJIZ0lVYeWJCtzFjanKXQPAWSq-L9XXZXAXTSu-bJN7EARvHzGWi_uGGAJX65XbshpAMJFLDNbe10N7I69r6ZtCeMdl6V4oqlWCpY6IXUVITXJ2IwLeNb4V8FpwIZmw5K9_LkACw",
+    "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjEzZThkNDVhNDNjYjIyNDIxNTRjN2Y0ZGFmYWMyOTMzZmVhMjAzNzQiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzMjU1NTk0MDU1OS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF1ZCI6IjMyNTU1OTQwNTU5LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE2NDY2MDQxODI0OTQ2Mjk0NzAwIiwiaGQiOiJ3b293YWhhbi5jb20iLCJlbWFpbCI6ImphZWh1bi5sZWVAd29vd2FoYW4uY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJrVm42VWJiVFppS19pcDZjUjBtV29RIiwiaWF0IjoxNjE2NzMwODQ2LCJleHAiOjE2MTY3MzQ0NDZ9.ZzyOZaB29Jv1SP5FIIllaIC6XQ35mk_dvLPkuy8EaOEZcnLWKJxxXZnvd7Lx5Slxb6-zsFRqyMo88QtprvS7guugx_YC8zu6UcCSS9kIVIXFudXvbSTZYy1yx8GMZWfWn-1owgdfdIqpg7b7eYJ0KuoLCoYRoDTh3EOOH0KWWKzB1f50eXPnmWomAJbRlSedgWZegPkw1gIbe-X0WO_xgafSuT0_Y-Sk82za6sKCjkp2NmBFNO4ryXMV7jSgw-nRyl8-l6JLWuWsDkBCiVv3ln-V3qEIox89yAFvDRi5sqmis5tlN-MfRJK0kICQiGStms0uuDBplQmF6d4VbUoYfA",
+    "token_expiry": "2021-03-26T04:54:05Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/Users/leejaehoon/.config/gcloud/config_sentinel"
+  }
+}
+2021-03-26 12:54:06,195 INFO     ___FILE_ONLY___ 
+
+2021-03-26 12:54:06,203 DEBUG    root            Metrics reporting process started...

@@ -1,0 +1,11 @@
+2021-03-07 22:42:14,177 DEBUG    root            Loaded Command Group: ['gcloud', 'container']
+2021-03-07 22:42:14,180 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters']
+2021-03-07 22:42:14,182 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'get_credentials']
+2021-03-07 22:42:14,202 DEBUG    root            Running [gcloud.container.clusters.get-credentials] with arguments: [--project: "gke-study-306607", --region: "asia-northeast3", NAME: "jaehun-autopilot-cluster-1"]
+2021-03-07 22:42:14,206 INFO     ___FILE_ONLY___ Fetching cluster endpoint and auth data.
+
+2021-03-07 22:42:14,440 DEBUG    root            Saved kubeconfig to /Users/leejaehoon/.kube/config
+2021-03-07 22:42:14,440 INFO     ___FILE_ONLY___ kubeconfig entry generated for jaehun-autopilot-cluster-1.
+
+2021-03-07 22:42:14,440 INFO     root            Display format: "default"
+2021-03-07 22:42:14,450 DEBUG    root            Metrics reporting process started...

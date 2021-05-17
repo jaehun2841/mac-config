@@ -1,0 +1,69 @@
+2021-03-25 15:05:22,230 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2021-03-25 15:05:22,234 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'disks']
+2021-03-25 15:05:22,243 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'disks', 'create']
+2021-03-25 15:05:22,341 DEBUG    root            Running [gcloud.compute.disks.create] with arguments: [--project: "gke-study-306607", --size: "10737418240", --type: "pd-standard", --zone: "asia-northeast3-a", DISK_NAME:1: "['jaehun-statefulset-pv-c']"]
+2021-03-25 15:05:22,348 WARNING  root            You have selected a disk size of under [200GB]. This may result in poor I/O performance. For more information, see: https://developers.google.com/compute/docs/disks#performance.
+2021-03-25 15:05:24,207 DEBUG    root            Operations to inspect: [<Operation
+ id: 2547176361491011276
+ insertTime: '2021-03-24T23:05:23.928-07:00'
+ kind: 'compute#operation'
+ name: 'operation-1616652323168-5be563372a2af-72612936-f6d55088'
+ operationType: 'insert'
+ progress: 0
+ selfLink: 'https://www.googleapis.com/compute/v1/projects/gke-study-306607/zones/asia-northeast3-a/operations/operation-1616652323168-5be563372a2af-72612936-f6d55088'
+ startTime: '2021-03-24T23:05:23.960-07:00'
+ status: StatusValueValuesEnum(RUNNING, 2)
+ targetId: 4529495319841445580
+ targetLink: 'https://www.googleapis.com/compute/v1/projects/gke-study-306607/zones/asia-northeast3-a/disks/jaehun-statefulset-pv-c'
+ user: 'jaehun.lee@woowahan.com'
+ warnings: []
+ zone: 'https://www.googleapis.com/compute/v1/projects/gke-study-306607/zones/asia-northeast3-a'>]
+2021-03-25 15:05:25,020 DEBUG    root            Operations to inspect: [<Operation
+ endTime: '2021-03-24T23:05:24.783-07:00'
+ id: 2547176361491011276
+ insertTime: '2021-03-24T23:05:23.928-07:00'
+ kind: 'compute#operation'
+ name: 'operation-1616652323168-5be563372a2af-72612936-f6d55088'
+ operationType: 'insert'
+ progress: 100
+ selfLink: 'https://www.googleapis.com/compute/v1/projects/gke-study-306607/zones/asia-northeast3-a/operations/operation-1616652323168-5be563372a2af-72612936-f6d55088'
+ startTime: '2021-03-24T23:05:23.960-07:00'
+ status: StatusValueValuesEnum(DONE, 0)
+ targetId: 4529495319841445580
+ targetLink: 'https://www.googleapis.com/compute/v1/projects/gke-study-306607/zones/asia-northeast3-a/disks/jaehun-statefulset-pv-c'
+ user: 'jaehun.lee@woowahan.com'
+ warnings: []
+ zone: 'https://www.googleapis.com/compute/v1/projects/gke-study-306607/zones/asia-northeast3-a'>]
+2021-03-25 15:05:25,020 INFO     ___FILE_ONLY___ Created [https://www.googleapis.com/compute/v1/projects/gke-study-306607/zones/asia-northeast3-a/disks/jaehun-statefulset-pv-c].
+
+2021-03-25 15:05:25,611 INFO     root            Display format: "table(name, zone.basename(), sizeGb, type.basename(), status)"
+2021-03-25 15:05:25,612 INFO     ___FILE_ONLY___ NAME
+2021-03-25 15:05:25,612 INFO     ___FILE_ONLY___                      
+2021-03-25 15:05:25,612 INFO     ___FILE_ONLY___ ZONE
+2021-03-25 15:05:25,612 INFO     ___FILE_ONLY___                
+2021-03-25 15:05:25,612 INFO     ___FILE_ONLY___ SIZE_GB
+2021-03-25 15:05:25,612 INFO     ___FILE_ONLY___   
+2021-03-25 15:05:25,612 INFO     ___FILE_ONLY___ TYPE
+2021-03-25 15:05:25,612 INFO     ___FILE_ONLY___          
+2021-03-25 15:05:25,613 INFO     ___FILE_ONLY___ STATUS
+2021-03-25 15:05:25,613 INFO     ___FILE_ONLY___ 
+
+2021-03-25 15:05:25,613 INFO     ___FILE_ONLY___ jaehun-statefulset-pv-c
+2021-03-25 15:05:25,613 INFO     ___FILE_ONLY___   
+2021-03-25 15:05:25,613 INFO     ___FILE_ONLY___ asia-northeast3-a
+2021-03-25 15:05:25,613 INFO     ___FILE_ONLY___   
+2021-03-25 15:05:25,613 INFO     ___FILE_ONLY___ 10
+2021-03-25 15:05:25,613 INFO     ___FILE_ONLY___        
+2021-03-25 15:05:25,614 INFO     ___FILE_ONLY___ pd-standard
+2021-03-25 15:05:25,614 INFO     ___FILE_ONLY___   
+2021-03-25 15:05:25,614 INFO     ___FILE_ONLY___ READY
+2021-03-25 15:05:25,614 INFO     ___FILE_ONLY___ 
+
+2021-03-25 15:05:25,614 INFO     ___FILE_ONLY___ 
+New disks are unformatted. You must format and mount a disk before it
+can be used. You can find instructions on how to do this at:
+
+https://cloud.google.com/compute/docs/disks/add-persistent-disk#formatting
+
+
+2021-03-25 15:05:25,625 DEBUG    root            Metrics reporting process started...

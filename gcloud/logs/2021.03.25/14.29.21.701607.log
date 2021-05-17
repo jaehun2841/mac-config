@@ -1,0 +1,40 @@
+2021-03-25 14:29:21,721 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2021-03-25 14:29:21,724 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'disks']
+2021-03-25 14:29:21,732 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'disks', 'delete']
+2021-03-25 14:29:21,735 DEBUG    root            Running [gcloud.compute.disks.delete] with arguments: [--project: "gke-study-306607", --zone: "asia-northeast3-a", DISK_NAME:1: "['jaehun-pv-c']"]
+2021-03-25 14:29:24,188 DEBUG    root            Operations to inspect: [<Operation
+ id: 2616341630062535004
+ insertTime: '2021-03-24T22:29:23.913-07:00'
+ kind: 'compute#operation'
+ name: 'operation-1616650163304-5be55b2b5b75b-09b5ef91-7632dcdf'
+ operationType: 'delete'
+ progress: 0
+ selfLink: 'https://www.googleapis.com/compute/v1/projects/gke-study-306607/zones/asia-northeast3-a/operations/operation-1616650163304-5be55b2b5b75b-09b5ef91-7632dcdf'
+ startTime: '2021-03-24T22:29:23.920-07:00'
+ status: StatusValueValuesEnum(RUNNING, 2)
+ targetId: 1119996739490783383
+ targetLink: 'https://www.googleapis.com/compute/v1/projects/gke-study-306607/zones/asia-northeast3-a/disks/jaehun-pv-c'
+ user: 'jaehun.lee@woowahan.com'
+ warnings: []
+ zone: 'https://www.googleapis.com/compute/v1/projects/gke-study-306607/zones/asia-northeast3-a'>]
+2021-03-25 14:29:24,813 DEBUG    root            Operations to inspect: [<Operation
+ endTime: '2021-03-24T22:29:24.377-07:00'
+ id: 2616341630062535004
+ insertTime: '2021-03-24T22:29:23.913-07:00'
+ kind: 'compute#operation'
+ name: 'operation-1616650163304-5be55b2b5b75b-09b5ef91-7632dcdf'
+ operationType: 'delete'
+ progress: 100
+ selfLink: 'https://www.googleapis.com/compute/v1/projects/gke-study-306607/zones/asia-northeast3-a/operations/operation-1616650163304-5be55b2b5b75b-09b5ef91-7632dcdf'
+ startTime: '2021-03-24T22:29:23.920-07:00'
+ status: StatusValueValuesEnum(DONE, 0)
+ targetId: 1119996739490783383
+ targetLink: 'https://www.googleapis.com/compute/v1/projects/gke-study-306607/zones/asia-northeast3-a/disks/jaehun-pv-c'
+ user: 'jaehun.lee@woowahan.com'
+ warnings: []
+ zone: 'https://www.googleapis.com/compute/v1/projects/gke-study-306607/zones/asia-northeast3-a'>]
+2021-03-25 14:29:24,814 INFO     ___FILE_ONLY___ Deleted [https://www.googleapis.com/compute/v1/projects/gke-study-306607/zones/asia-northeast3-a/disks/jaehun-pv-c].
+
+2021-03-25 14:29:24,814 INFO     root            Display format: "none"
+2021-03-25 14:29:24,817 INFO     root            cache collection=compute.disks api_version=v1 params=['project', 'zone', 'disk']
+2021-03-25 14:29:24,853 DEBUG    root            Metrics reporting process started...

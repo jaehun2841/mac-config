@@ -1,0 +1,5 @@
+2021-03-25 14:22:43,992 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2021-03-25 14:22:43,995 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'disks']
+2021-03-25 14:22:44,004 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'disks', 'create']
+2021-03-25 14:22:44,098 ERROR    root            (gcloud.compute.disks.create) argument --size: value must be greater than or equal to 10GB; received: 1GB
+2021-03-25 14:22:44,105 DEBUG    root            Metrics reporting process started...

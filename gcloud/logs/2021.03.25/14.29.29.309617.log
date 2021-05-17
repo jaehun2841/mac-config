@@ -1,0 +1,184 @@
+2021-03-25 14:29:29,329 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2021-03-25 14:29:29,332 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'disks']
+2021-03-25 14:29:29,340 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'disks', 'list']
+2021-03-25 14:29:29,343 DEBUG    root            Running [gcloud.compute.disks.list] with arguments: [--project: "gke-study-306607"]
+2021-03-25 14:29:29,428 INFO     root            Display format: "
+    table(
+      name,
+      location(),
+      location_scope(),
+      sizeGb,
+      type.basename(),
+      status
+      )"
+2021-03-25 14:29:30,125 INFO     root            cache collection=compute.disks api_version=v1 params=['project', 'zone', 'disk']
+2021-03-25 14:29:30,153 INFO     ___FILE_ONLY___ NAME
+2021-03-25 14:29:30,154 INFO     ___FILE_ONLY___                                                              
+2021-03-25 14:29:30,154 INFO     ___FILE_ONLY___ LOCATION
+2021-03-25 14:29:30,154 INFO     ___FILE_ONLY___            
+2021-03-25 14:29:30,154 INFO     ___FILE_ONLY___ LOCATION_SCOPE
+2021-03-25 14:29:30,154 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,154 INFO     ___FILE_ONLY___ SIZE_GB
+2021-03-25 14:29:30,154 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,154 INFO     ___FILE_ONLY___ TYPE
+2021-03-25 14:29:30,155 INFO     ___FILE_ONLY___          
+2021-03-25 14:29:30,155 INFO     ___FILE_ONLY___ STATUS
+2021-03-25 14:29:30,155 INFO     ___FILE_ONLY___ 
+
+2021-03-25 14:29:30,155 INFO     ___FILE_ONLY___ gke-dark-k8s-cluster-e-pvc-e27cfbca-1925-410c-9c3b-09503c439400
+2021-03-25 14:29:30,155 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,155 INFO     ___FILE_ONLY___ asia-northeast2-a
+2021-03-25 14:29:30,155 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,155 INFO     ___FILE_ONLY___ zone
+2021-03-25 14:29:30,155 INFO     ___FILE_ONLY___             
+2021-03-25 14:29:30,156 INFO     ___FILE_ONLY___ 1
+2021-03-25 14:29:30,156 INFO     ___FILE_ONLY___         
+2021-03-25 14:29:30,156 INFO     ___FILE_ONLY___ pd-standard
+2021-03-25 14:29:30,156 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,156 INFO     ___FILE_ONLY___ READY
+2021-03-25 14:29:30,156 INFO     ___FILE_ONLY___ 
+
+2021-03-25 14:29:30,156 INFO     ___FILE_ONLY___ mongodb
+2021-03-25 14:29:30,156 INFO     ___FILE_ONLY___                                                           
+2021-03-25 14:29:30,156 INFO     ___FILE_ONLY___ asia-northeast2-a
+2021-03-25 14:29:30,157 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,157 INFO     ___FILE_ONLY___ zone
+2021-03-25 14:29:30,157 INFO     ___FILE_ONLY___             
+2021-03-25 14:29:30,157 INFO     ___FILE_ONLY___ 10
+2021-03-25 14:29:30,157 INFO     ___FILE_ONLY___        
+2021-03-25 14:29:30,157 INFO     ___FILE_ONLY___ pd-balanced
+2021-03-25 14:29:30,157 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,157 INFO     ___FILE_ONLY___ READY
+2021-03-25 14:29:30,158 INFO     ___FILE_ONLY___ 
+
+2021-03-25 14:29:30,158 INFO     ___FILE_ONLY___ gce-persistent-volume
+2021-03-25 14:29:30,158 INFO     ___FILE_ONLY___                                             
+2021-03-25 14:29:30,158 INFO     ___FILE_ONLY___ asia-northeast3-a
+2021-03-25 14:29:30,158 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,158 INFO     ___FILE_ONLY___ zone
+2021-03-25 14:29:30,158 INFO     ___FILE_ONLY___             
+2021-03-25 14:29:30,158 INFO     ___FILE_ONLY___ 10
+2021-03-25 14:29:30,158 INFO     ___FILE_ONLY___        
+2021-03-25 14:29:30,158 INFO     ___FILE_ONLY___ pd-standard
+2021-03-25 14:29:30,159 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,159 INFO     ___FILE_ONLY___ READY
+2021-03-25 14:29:30,159 INFO     ___FILE_ONLY___ 
+
+2021-03-25 14:29:30,159 INFO     ___FILE_ONLY___ gke-cluster-1-95869944-pvc-26b78fd7-4691-4846-91e3-bb775291a4c2
+2021-03-25 14:29:30,159 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,159 INFO     ___FILE_ONLY___ asia-northeast3-a
+2021-03-25 14:29:30,159 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,159 INFO     ___FILE_ONLY___ zone
+2021-03-25 14:29:30,159 INFO     ___FILE_ONLY___             
+2021-03-25 14:29:30,159 INFO     ___FILE_ONLY___ 10
+2021-03-25 14:29:30,159 INFO     ___FILE_ONLY___        
+2021-03-25 14:29:30,160 INFO     ___FILE_ONLY___ pd-standard
+2021-03-25 14:29:30,160 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,160 INFO     ___FILE_ONLY___ READY
+2021-03-25 14:29:30,160 INFO     ___FILE_ONLY___ 
+
+2021-03-25 14:29:30,160 INFO     ___FILE_ONLY___ gke-cluster-1-95869944-pvc-934ca16b-86ec-40a6-8129-ec1c3cb018ed
+2021-03-25 14:29:30,160 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,160 INFO     ___FILE_ONLY___ asia-northeast3-a
+2021-03-25 14:29:30,160 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,160 INFO     ___FILE_ONLY___ zone
+2021-03-25 14:29:30,160 INFO     ___FILE_ONLY___             
+2021-03-25 14:29:30,160 INFO     ___FILE_ONLY___ 10
+2021-03-25 14:29:30,160 INFO     ___FILE_ONLY___        
+2021-03-25 14:29:30,161 INFO     ___FILE_ONLY___ pd-standard
+2021-03-25 14:29:30,161 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,161 INFO     ___FILE_ONLY___ READY
+2021-03-25 14:29:30,161 INFO     ___FILE_ONLY___ 
+
+2021-03-25 14:29:30,161 INFO     ___FILE_ONLY___ gke-dark-k8s-default-pool-00a51e6a-bs8t
+2021-03-25 14:29:30,161 INFO     ___FILE_ONLY___                           
+2021-03-25 14:29:30,161 INFO     ___FILE_ONLY___ asia-northeast3-a
+2021-03-25 14:29:30,161 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,161 INFO     ___FILE_ONLY___ zone
+2021-03-25 14:29:30,161 INFO     ___FILE_ONLY___             
+2021-03-25 14:29:30,161 INFO     ___FILE_ONLY___ 100
+2021-03-25 14:29:30,161 INFO     ___FILE_ONLY___       
+2021-03-25 14:29:30,162 INFO     ___FILE_ONLY___ pd-standard
+2021-03-25 14:29:30,162 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,162 INFO     ___FILE_ONLY___ READY
+2021-03-25 14:29:30,162 INFO     ___FILE_ONLY___ 
+
+2021-03-25 14:29:30,162 INFO     ___FILE_ONLY___ gke-jaehun-k8s-cluster-1-default-pool-7c055163-gcv7
+2021-03-25 14:29:30,162 INFO     ___FILE_ONLY___               
+2021-03-25 14:29:30,162 INFO     ___FILE_ONLY___ asia-northeast3-a
+2021-03-25 14:29:30,162 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,162 INFO     ___FILE_ONLY___ zone
+2021-03-25 14:29:30,162 INFO     ___FILE_ONLY___             
+2021-03-25 14:29:30,162 INFO     ___FILE_ONLY___ 100
+2021-03-25 14:29:30,163 INFO     ___FILE_ONLY___       
+2021-03-25 14:29:30,163 INFO     ___FILE_ONLY___ pd-standard
+2021-03-25 14:29:30,163 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,163 INFO     ___FILE_ONLY___ READY
+2021-03-25 14:29:30,163 INFO     ___FILE_ONLY___ 
+
+2021-03-25 14:29:30,163 INFO     ___FILE_ONLY___ gke-jaehun-k8s-cluster-1-default-pool-7c055163-q5xl
+2021-03-25 14:29:30,163 INFO     ___FILE_ONLY___               
+2021-03-25 14:29:30,163 INFO     ___FILE_ONLY___ asia-northeast3-a
+2021-03-25 14:29:30,163 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,163 INFO     ___FILE_ONLY___ zone
+2021-03-25 14:29:30,163 INFO     ___FILE_ONLY___             
+2021-03-25 14:29:30,163 INFO     ___FILE_ONLY___ 100
+2021-03-25 14:29:30,164 INFO     ___FILE_ONLY___       
+2021-03-25 14:29:30,164 INFO     ___FILE_ONLY___ pd-standard
+2021-03-25 14:29:30,164 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,164 INFO     ___FILE_ONLY___ READY
+2021-03-25 14:29:30,164 INFO     ___FILE_ONLY___ 
+
+2021-03-25 14:29:30,164 INFO     ___FILE_ONLY___ gke-jaehun-k8s-cluster-1-default-pool-7c055163-xqqq
+2021-03-25 14:29:30,164 INFO     ___FILE_ONLY___               
+2021-03-25 14:29:30,164 INFO     ___FILE_ONLY___ asia-northeast3-a
+2021-03-25 14:29:30,164 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,164 INFO     ___FILE_ONLY___ zone
+2021-03-25 14:29:30,164 INFO     ___FILE_ONLY___             
+2021-03-25 14:29:30,165 INFO     ___FILE_ONLY___ 100
+2021-03-25 14:29:30,165 INFO     ___FILE_ONLY___       
+2021-03-25 14:29:30,165 INFO     ___FILE_ONLY___ pd-standard
+2021-03-25 14:29:30,165 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,165 INFO     ___FILE_ONLY___ READY
+2021-03-25 14:29:30,165 INFO     ___FILE_ONLY___ 
+
+2021-03-25 14:29:30,165 INFO     ___FILE_ONLY___ gke-sjwoo-cluster-default-pool-25c15d9a-s131
+2021-03-25 14:29:30,165 INFO     ___FILE_ONLY___                      
+2021-03-25 14:29:30,165 INFO     ___FILE_ONLY___ asia-northeast3-a
+2021-03-25 14:29:30,165 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,165 INFO     ___FILE_ONLY___ zone
+2021-03-25 14:29:30,166 INFO     ___FILE_ONLY___             
+2021-03-25 14:29:30,166 INFO     ___FILE_ONLY___ 100
+2021-03-25 14:29:30,166 INFO     ___FILE_ONLY___       
+2021-03-25 14:29:30,166 INFO     ___FILE_ONLY___ pd-standard
+2021-03-25 14:29:30,166 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,166 INFO     ___FILE_ONLY___ READY
+2021-03-25 14:29:30,166 INFO     ___FILE_ONLY___ 
+
+2021-03-25 14:29:30,166 INFO     ___FILE_ONLY___ jaehun-persistent-disk
+2021-03-25 14:29:30,166 INFO     ___FILE_ONLY___                                            
+2021-03-25 14:29:30,166 INFO     ___FILE_ONLY___ asia-northeast3-a
+2021-03-25 14:29:30,166 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,166 INFO     ___FILE_ONLY___ zone
+2021-03-25 14:29:30,167 INFO     ___FILE_ONLY___             
+2021-03-25 14:29:30,167 INFO     ___FILE_ONLY___ 10
+2021-03-25 14:29:30,167 INFO     ___FILE_ONLY___        
+2021-03-25 14:29:30,167 INFO     ___FILE_ONLY___ pd-standard
+2021-03-25 14:29:30,167 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,167 INFO     ___FILE_ONLY___ READY
+2021-03-25 14:29:30,167 INFO     ___FILE_ONLY___ 
+
+2021-03-25 14:29:30,167 INFO     ___FILE_ONLY___ gke-kyucumber-kyucumber-pool-4d04e069-4rjt
+2021-03-25 14:29:30,167 INFO     ___FILE_ONLY___                        
+2021-03-25 14:29:30,167 INFO     ___FILE_ONLY___ asia-northeast3-c
+2021-03-25 14:29:30,167 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,167 INFO     ___FILE_ONLY___ zone
+2021-03-25 14:29:30,168 INFO     ___FILE_ONLY___             
+2021-03-25 14:29:30,168 INFO     ___FILE_ONLY___ 100
+2021-03-25 14:29:30,168 INFO     ___FILE_ONLY___       
+2021-03-25 14:29:30,168 INFO     ___FILE_ONLY___ pd-standard
+2021-03-25 14:29:30,168 INFO     ___FILE_ONLY___   
+2021-03-25 14:29:30,168 INFO     ___FILE_ONLY___ READY
+2021-03-25 14:29:30,168 INFO     ___FILE_ONLY___ 
+
+2021-03-25 14:29:30,181 DEBUG    root            Metrics reporting process started...

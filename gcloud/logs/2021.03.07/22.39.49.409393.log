@@ -1,0 +1,45 @@
+2021-03-07 22:39:49,413 DEBUG    root            Loaded Command Group: ['gcloud', 'container']
+2021-03-07 22:39:49,417 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters']
+2021-03-07 22:39:49,419 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'get_credentials']
+2021-03-07 22:39:49,466 DEBUG    root            Running [gcloud.container.clusters.get-credentials] with arguments: [--project: "gke-study-3066", --region: "asia-northeast3", NAME: "jaehun-autopilot-cluster-1"]
+2021-03-07 22:39:49,470 WARNING  root            Accessing a Kubernetes Engine cluster requires the kubernetes commandline
+client [kubectl]. To install, run
+  $ gcloud components install kubectl
+
+2021-03-07 22:39:49,471 INFO     ___FILE_ONLY___ Fetching cluster endpoint and auth data.
+
+2021-03-07 22:39:50,212 DEBUG    root            (gcloud.container.clusters.get-credentials) ResponseError: code=403, message=Project lookup error: permission denied on resource 'projects/gke-study-3066' (or it may not exist).
+Traceback (most recent call last):
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/api_lib/container/api_adapter.py", line 1014, in GetCluster
+    return self.client.projects_locations_clusters.Get(
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/third_party/apis/container/v1/container_v1_client.py", line 493, in Get
+    return self._RunMethod(
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 731, in _RunMethod
+    return self.ProcessHttpResponse(method_config, http_response, request)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 737, in ProcessHttpResponse
+    self.__ProcessHttpResponse(method_config, http_response, request))
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 603, in __ProcessHttpResponse
+    raise exceptions.HttpError.FromResponse(
+apitools.base.py.exceptions.HttpForbiddenError: HttpError accessing <https://container.googleapis.com/v1/projects/gke-study-3066/locations/asia-northeast3/clusters/jaehun-autopilot-cluster-1?alt=json>: response: <{'vary': 'Origin, X-Origin, Referer', 'content-type': 'application/json; charset=UTF-8', 'date': 'Sun, 07 Mar 2021 13:39:50 GMT', 'server': 'ESF', 'cache-control': 'private', 'x-xss-protection': '0', 'x-frame-options': 'SAMEORIGIN', 'x-content-type-options': 'nosniff', 'alt-svc': 'h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"', 'transfer-encoding': 'chunked', 'status': '403', 'content-length': '191', '-content-encoding': 'gzip'}>, content <{
+  "error": {
+    "code": 403,
+    "message": "Project lookup error: permission denied on resource 'projects/gke-study-3066' (or it may not exist).",
+    "status": "PERMISSION_DENIED"
+  }
+}
+>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 983, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 808, in Run
+    resources = command_instance.Run(args)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/surface/container/clusters/get_credentials.py", line 102, in Run
+    cluster = adapter.GetCluster(cluster_ref)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/api_lib/container/api_adapter.py", line 1023, in GetCluster
+    raise exceptions.HttpException(error, util.HTTP_ERROR_FORMAT)
+googlecloudsdk.calliope.exceptions.HttpException: ResponseError: code=403, message=Project lookup error: permission denied on resource 'projects/gke-study-3066' (or it may not exist).
+2021-03-07 22:39:50,226 ERROR    root            (gcloud.container.clusters.get-credentials) ResponseError: code=403, message=Project lookup error: permission denied on resource 'projects/gke-study-3066' (or it may not exist).
+2021-03-07 22:39:50,240 DEBUG    root            Metrics reporting process started...

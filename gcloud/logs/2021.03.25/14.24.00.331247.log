@@ -1,0 +1,29 @@
+2021-03-25 14:24:00,351 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2021-03-25 14:24:00,354 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'disks']
+2021-03-25 14:24:00,364 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'disks', 'create']
+2021-03-25 14:24:00,462 DEBUG    root            Running [gcloud.compute.disks.create] with arguments: [--project: "gke-study-306607", --size: "10737418240", --type: "pd-standard", --zone: "asia-northeast3-a", DISK_NAME:1: "['jaehun-pv-a']"]
+2021-03-25 14:24:00,468 WARNING  root            You have selected a disk size of under [200GB]. This may result in poor I/O performance. For more information, see: https://developers.google.com/compute/docs/disks#performance.
+2021-03-25 14:24:02,272 DEBUG    root            (gcloud.compute.disks.create) Could not fetch resource:
+ - The resource 'projects/gke-study-306607/zones/asia-northeast3-a/disks/jaehun-pv-a' already exists
+Traceback (most recent call last):
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 983, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 808, in Run
+    resources = command_instance.Run(args)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/surface/compute/disks/create.py", line 407, in Run
+    return self._Run(args, supports_kms_keys=True)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/surface/compute/disks/create.py", line 568, in _Run
+    return client.MakeRequests(requests)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/client_adapter.py", line 104, in MakeRequests
+    utils.RaiseToolException(
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/utils.py", line 124, in RaiseToolException
+    RaiseException(problems, calliope_exceptions.ToolException, error_message)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/utils.py", line 133, in RaiseException
+    raise exception(
+googlecloudsdk.calliope.exceptions.ToolException: Could not fetch resource:
+ - The resource 'projects/gke-study-306607/zones/asia-northeast3-a/disks/jaehun-pv-a' already exists
+
+2021-03-25 14:24:02,291 ERROR    root            (gcloud.compute.disks.create) Could not fetch resource:
+ - The resource 'projects/gke-study-306607/zones/asia-northeast3-a/disks/jaehun-pv-a' already exists
+
+2021-03-25 14:24:02,308 DEBUG    root            Metrics reporting process started...

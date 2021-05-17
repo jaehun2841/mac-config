@@ -1,0 +1,5 @@
+2021-03-25 14:27:40,490 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2021-03-25 14:27:40,493 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'disks']
+2021-03-25 14:27:40,500 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'disks', 'delete']
+2021-03-25 14:27:40,502 ERROR    root            (gcloud.compute.disks.delete) argument DISK_NAME [DISK_NAME ...]: Must be specified.
+2021-03-25 14:27:40,509 DEBUG    root            Metrics reporting process started...

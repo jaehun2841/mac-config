@@ -1,0 +1,25 @@
+2021-03-07 22:39:12,817 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2021-03-07 22:39:12,830 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'list']
+2021-03-07 22:39:12,832 DEBUG    root            Running [gcloud.auth.list] with arguments: []
+2021-03-07 22:39:12,838 INFO     root            Display format: "    table[title='Credentialed Accounts'](
+        status.yesno(yes='*', no=''):label=ACTIVE,
+        account
+    )"
+2021-03-07 22:39:12,839 INFO     ___FILE_ONLY___ 
+No credentialed accounts.
+
+To login, run:
+  $ gcloud auth login `ACCOUNT`
+
+
+2021-03-07 22:39:12,839 DEBUG    root            Checking for updates...
+2021-03-07 22:39:13,825 DEBUG    root            Updating notification cache...
+2021-03-07 22:39:13,826 DEBUG    root            Activating notification: [default]
+2021-03-07 22:39:13,826 INFO     ___FILE_ONLY___ 
+
+Updates are available for some Cloud SDK components.  To install them,
+please run:
+  $ gcloud components update
+
+
+2021-03-07 22:39:13,835 DEBUG    root            Metrics reporting process started...

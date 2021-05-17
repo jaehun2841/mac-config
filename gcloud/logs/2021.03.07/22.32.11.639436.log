@@ -1,0 +1,74 @@
+2021-03-07 22:32:11,643 DEBUG    root            Loaded Command Group: ['gcloud', 'container']
+2021-03-07 22:32:11,666 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters']
+2021-03-07 22:32:11,670 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'get_credentials']
+2021-03-07 22:32:11,673 WARNING  root            Could not open the configuration file: [/Users/leejaehoon/.config/gcloud/configurations/config_default].
+2021-03-07 22:32:11,674 DEBUG    root            (gcloud.container.clusters.get-credentials) You do not currently have an active account selected.
+Please run:
+
+  $ gcloud auth login
+
+to obtain new credentials.
+
+If you have already logged in with a different account:
+
+    $ gcloud config set account ACCOUNT
+
+to select an already authenticated account to use.
+Traceback (most recent call last):
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 983, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 803, in Run
+    self._parent_group.RunGroupFilter(tool_context, args)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 711, in RunGroupFilter
+    self._parent_group.RunGroupFilter(context, args)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 712, in RunGroupFilter
+    self._common_type().Filter(context, args)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/surface/container/__init__.py", line 57, in Filter
+    context['api_adapter'] = api_adapter.NewAPIAdapter('v1')
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/api_lib/container/api_adapter.py", line 295, in NewAPIAdapter
+    return NewV1APIAdapter()
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/api_lib/container/api_adapter.py", line 299, in NewV1APIAdapter
+    return InitAPIAdapter('v1', V1Adapter)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/api_lib/container/api_adapter.py", line 321, in InitAPIAdapter
+    api_client = core_apis.GetClientInstance('container', api_version)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/api_lib/util/apis.py", line 313, in GetClientInstance
+    return apis_internal._GetClientInstance(api_name, api_version, no_http, None,
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/api_lib/util/apis_internal.py", line 166, in _GetClientInstance
+    http_client = transports.GetApitoolsTransport(
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/core/credentials/transports.py", line 63, in GetApitoolsTransport
+    return http.Http(timeout=timeout,
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/core/credentials/http.py", line 76, in Http
+    http_client = RequestWrapper().WrapCredentials(
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/core/credentials/transport.py", line 84, in WrapCredentials
+    creds = store.LoadIfEnabled(allow_account_impersonation, use_google_auth)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/core/credentials/store.py", line 487, in LoadIfEnabled
+    return Load(
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/core/credentials/store.py", line 586, in Load
+    cred = _Load(account, scopes, prevent_refresh, use_google_auth)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/core/credentials/store.py", line 667, in _Load
+    raise NoActiveAccountException(
+googlecloudsdk.core.credentials.store.NoActiveAccountException: You do not currently have an active account selected.
+Please run:
+
+  $ gcloud auth login
+
+to obtain new credentials.
+
+If you have already logged in with a different account:
+
+    $ gcloud config set account ACCOUNT
+
+to select an already authenticated account to use.
+2021-03-07 22:32:11,691 ERROR    root            (gcloud.container.clusters.get-credentials) You do not currently have an active account selected.
+Please run:
+
+  $ gcloud auth login
+
+to obtain new credentials.
+
+If you have already logged in with a different account:
+
+    $ gcloud config set account ACCOUNT
+
+to select an already authenticated account to use.
+2021-03-07 22:32:11,714 DEBUG    root            Metrics reporting process started...

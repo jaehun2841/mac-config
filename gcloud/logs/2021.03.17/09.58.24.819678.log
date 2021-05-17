@@ -1,0 +1,30 @@
+2021-03-17 09:58:24,822 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2021-03-17 09:58:24,827 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'config_helper']
+2021-03-17 09:58:24,829 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
+2021-03-17 09:58:24,918 DEBUG    google_auth_httplib2 Making request: POST https://oauth2.googleapis.com/token
+2021-03-17 09:58:25,364 INFO     root            Display format: "default json"
+2021-03-17 09:58:25,365 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "default",
+    "properties": {
+      "core": {
+        "account": "jaehun.lee@woowahan.com",
+        "disable_usage_reporting": "False"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.a0AfH6SMDhaDvd68qvRCE92vEoBIqVbhgFxFmn5W8bBuffFXbwori81ge3xvJN8Xrn5V7_fA53v1-gMUHHtXZ1Q6rnWOnE3wWkqS-Og7h1phKzMkP1tls-8B2KgDDhHd9lZ5L95nwf9td0i4z623Yoo_Lmp_uOGPy9fsf1yQ",
+    "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg0NjJhNzFkYTRmNmQ2MTFmYzBmZWNmMGZjNGJhOWMzN2Q2NWU2Y2QiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzMjU1NTk0MDU1OS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF1ZCI6IjMyNTU1OTQwNTU5LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE2NDY2MDQxODI0OTQ2Mjk0NzAwIiwiaGQiOiJ3b293YWhhbi5jb20iLCJlbWFpbCI6ImphZWh1bi5sZWVAd29vd2FoYW4uY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJUNXkzVEl5dDZoNGVqUnYxdThYMWJ3IiwiaWF0IjoxNjE1OTQyNzA1LCJleHAiOjE2MTU5NDYzMDV9.TZzMEVonTEkZP79G8bCT9fFtIRUGjtlMZVCMVODzZEVCxxBQrwtkTMcNwbiYr4-3e0Va613Tkzo0HxJy5eSNd-kH9NQDDqpkwnxPNVv4u8C2_zUweODy06AYNOlqjrIpZawxQ2Vf4-Q2hzP0B08LuOs9jzTNvk1HLgQd1S8BnHE85xHyZUc6UHhVxNvg3h7A_AvieeEwHroXl4_EBaFtymIp5nrRBwhUUe-tf5rOOZQRLqanD21aNyLUGyiq3GZUb4iYh6I5lzK2M8qHwWUiTZfDQvsWMhs6VVX85wcSTBBMGmpS_w9aFi_vqGvmf0fgFfPcTw3Nys1G24bth3lm-w",
+    "token_expiry": "2021-03-17T01:58:24Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/Users/leejaehoon/.config/gcloud/config_sentinel"
+  }
+}
+2021-03-17 09:58:25,365 INFO     ___FILE_ONLY___ 
+
+2021-03-17 09:58:25,366 DEBUG    root            Checking for updates...
+2021-03-17 09:58:25,904 DEBUG    root            Updating notification cache...
+2021-03-17 09:58:25,904 DEBUG    root            Activating notification: [default]
+2021-03-17 09:58:25,912 DEBUG    root            Metrics reporting process started...

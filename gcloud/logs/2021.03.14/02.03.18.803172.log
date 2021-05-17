@@ -1,0 +1,7 @@
+2021-03-14 02:03:18,861 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2021-03-14 02:03:18,876 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'disks']
+2021-03-14 02:03:18,878 ERROR    root            (gcloud.compute.disks) unrecognized arguments: --list (did you mean '--quiet'?) 
+
+To search the help text of gcloud commands, run:
+  gcloud help -- SEARCH_TERMS
+2021-03-14 02:03:18,883 DEBUG    root            Metrics reporting process started...

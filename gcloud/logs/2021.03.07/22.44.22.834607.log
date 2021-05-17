@@ -1,0 +1,11 @@
+2021-03-07 22:44:22,838 DEBUG    root            Loaded Command Group: ['gcloud', 'container']
+2021-03-07 22:44:22,840 ERROR    root            (gcloud.container) Command name argument expected.
+2021-03-07 22:44:22,843 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'node_pools']
+2021-03-07 22:44:22,844 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'subnets']
+2021-03-07 22:44:22,845 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'operations']
+2021-03-07 22:44:22,847 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'binauthz']
+2021-03-07 22:44:22,849 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters']
+2021-03-07 22:44:22,850 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'hub']
+2021-03-07 22:44:22,851 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'get_server_config']
+2021-03-07 22:44:22,853 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'images']
+2021-03-07 22:44:22,864 DEBUG    root            Metrics reporting process started...

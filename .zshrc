@@ -67,6 +67,10 @@ plugins=(
   zsh-syntax-highlighting
   zsh-autosuggestions
   tmux
+  kubectl
+  gradle
+  docker
+  ktlint
 )
 
 
@@ -104,6 +108,7 @@ prompt pure
 alias vim="nvim"
 alias vi="nvim"
 alias vimdiff="nvim -d"
+# alias python=/usr/local/bin/python3
 export EDITOR=/usr/local/bin/nvim
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -122,3 +127,17 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 
 eval "$(direnv hook zsh)"
 eval "$(rbenv init -)"
+alias python=/usr/local/bin/python3
+alias pip=/usr/local/bin/pip3
+alias python=/usr/local/bin/python3
+alias pip=/usr/local/bin/pip3
+alias python=/usr/bin/python3
+alias pip=/usr/bin/pip3
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/leejaehoon/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/leejaehoon/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/leejaehoon/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/leejaehoon/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+export PATH="/usr/local/opt/php@7.4/bin:$PATH"
+export PATH="/usr/local/opt/php@7.4/sbin:$PATH"

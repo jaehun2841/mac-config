@@ -1,0 +1,9 @@
+2021-03-25 14:27:59,456 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2021-03-25 14:27:59,460 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'disks']
+2021-03-25 14:27:59,467 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'disks', 'delete']
+2021-03-25 14:27:59,470 DEBUG    root            Running [gcloud.compute.disks.delete] with arguments: [--project: "gke-study-306607", DISK_NAME:1: "['jaehun-pv-a']"]
+2021-03-25 14:28:12,658 INFO     ___FILE_ONLY___ 
+
+Command killed by keyboard interrupt
+
+

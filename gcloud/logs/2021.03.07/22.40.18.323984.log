@@ -1,0 +1,187 @@
+2021-03-07 22:40:18,324 DEBUG    root            Loaded Command Group: ['gcloud', 'components']
+2021-03-07 22:40:18,330 DEBUG    root            Loaded Command Group: ['gcloud', 'components', 'install']
+2021-03-07 22:40:18,332 DEBUG    root            Running [gcloud.components.install] with arguments: [COMPONENT-IDS:1: "['kubectl']"]
+2021-03-07 22:40:18,934 INFO     ___FILE_ONLY___ 
+
+2021-03-07 22:40:18,935 INFO     ___FILE_ONLY___ 
+Your current Cloud SDK version is: 308.0.0
+
+2021-03-07 22:40:18,935 INFO     ___FILE_ONLY___ Installing components from version: 308.0.0
+
+2021-03-07 22:40:18,935 INFO     ___FILE_ONLY___ 
+
+2021-03-07 22:40:18,938 INFO     ___FILE_ONLY___ ┌──────────────────────────────────────────────────────────────────┐
+2021-03-07 22:40:18,938 INFO     ___FILE_ONLY___ 
+
+2021-03-07 22:40:18,939 INFO     ___FILE_ONLY___ │               These components will be installed.                │
+2021-03-07 22:40:18,939 INFO     ___FILE_ONLY___ 
+
+2021-03-07 22:40:18,939 INFO     ___FILE_ONLY___ ├─────────────────────┬─────────────────────┬──────────────────────┤
+2021-03-07 22:40:18,939 INFO     ___FILE_ONLY___ 
+
+2021-03-07 22:40:18,939 INFO     ___FILE_ONLY___ │         Name        │       Version       │         Size         │
+2021-03-07 22:40:18,939 INFO     ___FILE_ONLY___ 
+
+2021-03-07 22:40:18,939 INFO     ___FILE_ONLY___ ├─────────────────────┼─────────────────────┼──────────────────────┤
+2021-03-07 22:40:18,939 INFO     ___FILE_ONLY___ 
+
+2021-03-07 22:40:18,939 INFO     ___FILE_ONLY___ │ 
+2021-03-07 22:40:18,939 INFO     ___FILE_ONLY___ kubectl            
+2021-03-07 22:40:18,940 INFO     ___FILE_ONLY___  
+2021-03-07 22:40:18,940 INFO     ___FILE_ONLY___ │ 
+2021-03-07 22:40:18,940 INFO     ___FILE_ONLY___             1.15.11
+2021-03-07 22:40:18,940 INFO     ___FILE_ONLY___  
+2021-03-07 22:40:18,940 INFO     ___FILE_ONLY___ │ 
+2021-03-07 22:40:18,940 INFO     ___FILE_ONLY___             87.1 MiB
+2021-03-07 22:40:18,940 INFO     ___FILE_ONLY___  
+2021-03-07 22:40:18,940 INFO     ___FILE_ONLY___ │
+2021-03-07 22:40:18,940 INFO     ___FILE_ONLY___ 
+
+2021-03-07 22:40:18,940 INFO     ___FILE_ONLY___ │ 
+2021-03-07 22:40:18,940 INFO     ___FILE_ONLY___ kubectl            
+2021-03-07 22:40:18,941 INFO     ___FILE_ONLY___  
+2021-03-07 22:40:18,941 INFO     ___FILE_ONLY___ │ 
+2021-03-07 22:40:18,941 INFO     ___FILE_ONLY___             1.15.11
+2021-03-07 22:40:18,941 INFO     ___FILE_ONLY___  
+2021-03-07 22:40:18,941 INFO     ___FILE_ONLY___ │ 
+2021-03-07 22:40:18,941 INFO     ___FILE_ONLY___              < 1 MiB
+2021-03-07 22:40:18,941 INFO     ___FILE_ONLY___  
+2021-03-07 22:40:18,941 INFO     ___FILE_ONLY___ │
+2021-03-07 22:40:18,941 INFO     ___FILE_ONLY___ 
+
+2021-03-07 22:40:18,941 INFO     ___FILE_ONLY___ └─────────────────────┴─────────────────────┴──────────────────────┘
+2021-03-07 22:40:18,941 INFO     ___FILE_ONLY___ 
+
+2021-03-07 22:40:18,942 INFO     ___FILE_ONLY___ 
+
+2021-03-07 22:40:19,825 INFO     ___FILE_ONLY___ For the latest full release notes, please visit:
+  https://cloud.google.com/sdk/release_notes
+
+
+2021-03-07 22:40:21,638 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2021-03-07 22:40:21,638 INFO     ___FILE_ONLY___ ╠═ Creating update staging area                             ═╣
+
+2021-03-07 22:40:21,638 INFO     ___FILE_ONLY___ ╚
+2021-03-07 22:40:21,639 INFO     ___FILE_ONLY___ ══════
+2021-03-07 22:40:21,639 INFO     ___FILE_ONLY___ ══════
+2021-03-07 22:40:21,639 INFO     ___FILE_ONLY___ ══════
+2021-03-07 22:40:22,178 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:22,363 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:22,487 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:22,674 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:22,862 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:23,068 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:23,244 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:23,562 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:23,714 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:23,826 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:23,938 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:24,087 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:24,240 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:24,387 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:24,563 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:24,759 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:24,934 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:25,096 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:25,258 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:25,404 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:25,552 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:25,705 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:25,827 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:25,971 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:26,097 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:26,280 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:26,463 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:26,611 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:26,744 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:26,940 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:27,217 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:27,757 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:27,906 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:27,982 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:28,077 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:28,156 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:28,225 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:28,291 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:28,366 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:28,455 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:28,688 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:29,310 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:29,310 INFO     ___FILE_ONLY___ ╝
+2021-03-07 22:40:29,375 INFO     ___FILE_ONLY___ ╠════════════════════════════════════════════════════════════╣
+
+2021-03-07 22:40:29,375 INFO     ___FILE_ONLY___ ╠═ Installing: kubectl                                      ═╣
+
+2021-03-07 22:40:29,376 INFO     ___FILE_ONLY___ ╚
+2021-03-07 22:40:31,082 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:31,564 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:32,059 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:32,479 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:32,824 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:33,161 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:33,489 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:33,862 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:34,667 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:35,229 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:35,513 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:35,976 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:36,153 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:36,424 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:36,685 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:37,055 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:37,402 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:37,713 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:38,080 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:38,375 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:38,641 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:38,968 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:39,318 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:39,663 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:39,989 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:40,449 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:40,733 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:41,017 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:41,362 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:41,652 INFO     ___FILE_ONLY___ ═
+2021-03-07 22:40:43,036 INFO     ___FILE_ONLY___ ═════
+2021-03-07 22:40:43,279 INFO     ___FILE_ONLY___ ═════
+2021-03-07 22:40:43,523 INFO     ___FILE_ONLY___ ═════
+2021-03-07 22:40:43,762 INFO     ___FILE_ONLY___ ════
+2021-03-07 22:40:44,006 INFO     ___FILE_ONLY___ ══════
+2021-03-07 22:40:44,249 INFO     ___FILE_ONLY___ ═════
+2021-03-07 22:40:44,249 INFO     ___FILE_ONLY___ ╝
+2021-03-07 22:40:44,256 INFO     ___FILE_ONLY___ ╠════════════════════════════════════════════════════════════╣
+
+2021-03-07 22:40:44,256 INFO     ___FILE_ONLY___ ╠═ Installing: kubectl                                      ═╣
+
+2021-03-07 22:40:44,256 INFO     ___FILE_ONLY___ ╚
+2021-03-07 22:40:44,703 INFO     ___FILE_ONLY___ ═══════════
+2021-03-07 22:40:44,796 INFO     ___FILE_ONLY___ ═══════════
+2021-03-07 22:40:44,837 INFO     ___FILE_ONLY___ ════════
+2021-03-07 22:40:44,843 INFO     ___FILE_ONLY___ ══════════════════════════════
+2021-03-07 22:40:44,843 INFO     ___FILE_ONLY___ ╝
+2021-03-07 22:40:44,847 INFO     ___FILE_ONLY___ ╠════════════════════════════════════════════════════════════╣
+
+2021-03-07 22:40:44,847 INFO     ___FILE_ONLY___ ╠═ Creating backup and activating new installation          ═╣
+
+2021-03-07 22:40:44,847 INFO     ___FILE_ONLY___ ╚
+2021-03-07 22:40:44,847 DEBUG    root            Attempting to move directory [/Users/leejaehoon/Downloads/google-cloud-sdk] to [/Users/leejaehoon/Downloads/google-cloud-sdk.staging/.install/.backup]
+2021-03-07 22:40:44,848 INFO     ___FILE_ONLY___ ══════════════════════════════
+2021-03-07 22:40:44,848 DEBUG    root            Attempting to move directory [/Users/leejaehoon/Downloads/google-cloud-sdk.staging] to [/Users/leejaehoon/Downloads/google-cloud-sdk]
+2021-03-07 22:40:44,848 INFO     ___FILE_ONLY___ ══════════════════════════════
+2021-03-07 22:40:44,848 INFO     ___FILE_ONLY___ ╝
+
+2021-03-07 22:40:44,852 DEBUG    root            Updating notification cache...
+2021-03-07 22:40:44,852 INFO     ___FILE_ONLY___ 
+
+2021-03-07 22:40:44,853 INFO     ___FILE_ONLY___ Performing post processing steps...
+2021-03-07 22:40:44,853 DEBUG    root            Executing command: ['/Library/Developer/CommandLineTools/usr/bin/python3', '-S', '/Users/leejaehoon/Downloads/google-cloud-sdk/lib/gcloud.py', 'components', 'post-process']
+2021-03-07 22:40:58,508 DEBUG    ___FILE_ONLY___ 
+2021-03-07 22:40:58,509 DEBUG    ___FILE_ONLY___ 
+2021-03-07 22:40:58,747 INFO     ___FILE_ONLY___ 
+Update done!
+
+
+2021-03-07 22:40:58,762 INFO     root            Display format: "none"
+2021-03-07 22:40:58,773 DEBUG    root            Metrics reporting process started...

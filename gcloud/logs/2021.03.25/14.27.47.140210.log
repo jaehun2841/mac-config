@@ -1,0 +1,44 @@
+2021-03-25 14:27:47,160 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2021-03-25 14:27:47,163 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'disks']
+2021-03-25 14:27:47,171 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'disks', 'delete']
+2021-03-25 14:27:47,173 DEBUG    root            Running [gcloud.compute.disks.delete] with arguments: [DISK_NAME:1: "['jaehun-pv-a']"]
+2021-03-25 14:27:47,258 DEBUG    root            (gcloud.compute.disks.delete) The required property [project] is not currently set.
+You may set it for your current workspace by running:
+
+  $ gcloud config set project VALUE
+
+or it can be set temporarily by the environment variable [CLOUDSDK_CORE_PROJECT]
+Traceback (most recent call last):
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 983, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 808, in Run
+    resources = command_instance.Run(args)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/surface/compute/disks/delete.py", line 86, in Run
+    disk_refs = Delete.disks_arg.ResolveAsResource(
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/command_lib/compute/flags.py", line 836, in ResolveAsResource
+    refs = self._resource_resolver.ResolveResources(
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/command_lib/compute/flags.py", line 540, in ResolveResources
+    self._ResolveUnderspecifiedNames(
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/command_lib/compute/flags.py", line 439, in _ResolveUnderspecifiedNames
+    resource_scope_enum, scope_value = scope_prompter.PromptForScope(
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/command_lib/compute/scope_prompter.py", line 60, in PromptForScope
+    scope_value_choices = scope_lister(
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/command_lib/compute/flags.py", line 208, in Lister
+    prj = project or properties.VALUES.core.project.Get(required=True)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/core/properties.py", line 2278, in Get
+    value = _GetProperty(self, named_configs.ActivePropertiesFile.Load(),
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/core/properties.py", line 2587, in _GetProperty
+    raise RequiredPropertyError(prop, flag=flag_to_use)
+googlecloudsdk.core.properties.RequiredPropertyError: The required property [project] is not currently set.
+You may set it for your current workspace by running:
+
+  $ gcloud config set project VALUE
+
+or it can be set temporarily by the environment variable [CLOUDSDK_CORE_PROJECT]
+2021-03-25 14:27:47,271 ERROR    root            (gcloud.compute.disks.delete) The required property [project] is not currently set.
+You may set it for your current workspace by running:
+
+  $ gcloud config set project VALUE
+
+or it can be set temporarily by the environment variable [CLOUDSDK_CORE_PROJECT]
+2021-03-25 14:27:47,282 DEBUG    root            Metrics reporting process started...

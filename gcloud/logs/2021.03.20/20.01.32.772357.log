@@ -1,0 +1,49 @@
+2021-03-20 20:01:32,779 DEBUG    root            Loaded Command Group: ['gcloud', 'container']
+2021-03-20 20:01:32,783 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters']
+2021-03-20 20:01:32,786 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'get_credentials']
+2021-03-20 20:01:32,812 DEBUG    root            Running [gcloud.container.clusters.get-credentials] with arguments: [--project: "gke-study-306607", --region: "asia-northeast3", NAME: "jaehun-k8s-cluster-1"]
+2021-03-20 20:01:32,818 INFO     ___FILE_ONLY___ Fetching cluster endpoint and auth data.
+
+2021-03-20 20:01:33,423 DEBUG    root            (gcloud.container.clusters.get-credentials) ResponseError: code=404, message=Not found: projects/gke-study-306607/locations/asia-northeast3/clusters/jaehun-k8s-cluster-1.
+Could not find [jaehun-k8s-cluster-1] in [asia-northeast3].
+Did you mean [jaehun-k8s-cluster-1] in [asia-northeast3-a]?
+Traceback (most recent call last):
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/api_lib/container/api_adapter.py", line 1014, in GetCluster
+    return self.client.projects_locations_clusters.Get(
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/third_party/apis/container/v1/container_v1_client.py", line 493, in Get
+    return self._RunMethod(
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 731, in _RunMethod
+    return self.ProcessHttpResponse(method_config, http_response, request)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 737, in ProcessHttpResponse
+    self.__ProcessHttpResponse(method_config, http_response, request))
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/third_party/apitools/base/py/base_api.py", line 603, in __ProcessHttpResponse
+    raise exceptions.HttpError.FromResponse(
+apitools.base.py.exceptions.HttpNotFoundError: HttpError accessing <https://container.googleapis.com/v1/projects/gke-study-306607/locations/asia-northeast3/clusters/jaehun-k8s-cluster-1?alt=json>: response: <{'vary': 'Origin, X-Origin, Referer', 'content-type': 'application/json; charset=UTF-8', 'date': 'Sat, 20 Mar 2021 11:01:33 GMT', 'server': 'ESF', 'cache-control': 'private', 'x-xss-protection': '0', 'x-frame-options': 'SAMEORIGIN', 'x-content-type-options': 'nosniff', 'alt-svc': 'h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"', 'transfer-encoding': 'chunked', 'status': '404', 'content-length': '176', '-content-encoding': 'gzip'}>, content <{
+  "error": {
+    "code": 404,
+    "message": "Not found: projects/gke-study-306607/locations/asia-northeast3/clusters/jaehun-k8s-cluster-1.",
+    "status": "NOT_FOUND"
+  }
+}
+>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 983, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 808, in Run
+    resources = command_instance.Run(args)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/surface/container/clusters/get_credentials.py", line 102, in Run
+    cluster = adapter.GetCluster(cluster_ref)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/api_lib/container/api_adapter.py", line 1021, in GetCluster
+    self.CheckClusterOtherZones(cluster_ref, api_error)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/api_lib/container/api_adapter.py", line 1059, in CheckClusterOtherZones
+    raise util.Error(
+googlecloudsdk.api_lib.container.util.Error: ResponseError: code=404, message=Not found: projects/gke-study-306607/locations/asia-northeast3/clusters/jaehun-k8s-cluster-1.
+Could not find [jaehun-k8s-cluster-1] in [asia-northeast3].
+Did you mean [jaehun-k8s-cluster-1] in [asia-northeast3-a]?
+2021-03-20 20:01:33,439 ERROR    root            (gcloud.container.clusters.get-credentials) ResponseError: code=404, message=Not found: projects/gke-study-306607/locations/asia-northeast3/clusters/jaehun-k8s-cluster-1.
+Could not find [jaehun-k8s-cluster-1] in [asia-northeast3].
+Did you mean [jaehun-k8s-cluster-1] in [asia-northeast3-a]?
+2021-03-20 20:01:33,452 DEBUG    root            Metrics reporting process started...

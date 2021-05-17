@@ -1,0 +1,10 @@
+2021-03-25 14:23:50,305 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2021-03-25 14:23:50,308 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'disks']
+2021-03-25 14:23:50,317 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'disks', 'create']
+2021-03-25 14:23:50,411 DEBUG    root            Running [gcloud.compute.disks.create] with arguments: [--project: "gke-study-306607", --size: "10737418240", --type: "pd-standard", --zone: "asia-northeast3-a", DISK_NAME:1: "['jaehun-pv-a']"]
+2021-03-25 14:23:50,420 WARNING  root            You have selected a disk size of under [200GB]. This may result in poor I/O performance. For more information, see: https://developers.google.com/compute/docs/disks#performance.
+2021-03-25 14:23:52,179 INFO     ___FILE_ONLY___ 
+
+Command killed by keyboard interrupt
+
+

@@ -1,0 +1,38 @@
+2021-03-25 14:25:54,648 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2021-03-25 14:25:54,651 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'disks']
+2021-03-25 14:25:54,659 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'disks', 'list']
+2021-03-25 14:25:54,662 DEBUG    root            Running [gcloud.compute.disks.list] with arguments: []
+2021-03-25 14:25:54,748 DEBUG    root            (gcloud.compute.disks.list) The required property [project] is not currently set.
+You may set it for your current workspace by running:
+
+  $ gcloud config set project VALUE
+
+or it can be set temporarily by the environment variable [CLOUDSDK_CORE_PROJECT]
+Traceback (most recent call last):
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 983, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 808, in Run
+    resources = command_instance.Run(args)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/surface/compute/disks/list.py", line 47, in Run
+    request_data = lister.ParseMultiScopeFlags(args, holder.resources)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/lister.py", line 708, in ParseMultiScopeFlags
+    properties.VALUES.core.project.GetOrFail(),
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/core/properties.py", line 2262, in GetOrFail
+    return self.Get(required=True)
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/core/properties.py", line 2278, in Get
+    value = _GetProperty(self, named_configs.ActivePropertiesFile.Load(),
+  File "/Users/leejaehoon/Downloads/google-cloud-sdk/lib/googlecloudsdk/core/properties.py", line 2587, in _GetProperty
+    raise RequiredPropertyError(prop, flag=flag_to_use)
+googlecloudsdk.core.properties.RequiredPropertyError: The required property [project] is not currently set.
+You may set it for your current workspace by running:
+
+  $ gcloud config set project VALUE
+
+or it can be set temporarily by the environment variable [CLOUDSDK_CORE_PROJECT]
+2021-03-25 14:25:54,759 ERROR    root            (gcloud.compute.disks.list) The required property [project] is not currently set.
+You may set it for your current workspace by running:
+
+  $ gcloud config set project VALUE
+
+or it can be set temporarily by the environment variable [CLOUDSDK_CORE_PROJECT]
+2021-03-25 14:25:54,771 DEBUG    root            Metrics reporting process started...

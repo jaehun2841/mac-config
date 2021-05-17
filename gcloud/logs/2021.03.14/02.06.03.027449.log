@@ -1,0 +1,223 @@
+2021-03-14 02:06:03,049 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2021-03-14 02:06:03,052 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'disks']
+2021-03-14 02:06:03,060 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'disks', 'list']
+2021-03-14 02:06:03,063 DEBUG    root            Running [gcloud.compute.disks.list] with arguments: [--project: "gke-study-306607"]
+2021-03-14 02:06:03,151 INFO     root            Display format: "
+    table(
+      name,
+      location(),
+      location_scope(),
+      sizeGb,
+      type.basename(),
+      status
+      )"
+2021-03-14 02:06:03,924 INFO     root            cache collection=compute.disks api_version=v1 params=['project', 'zone', 'disk']
+2021-03-14 02:06:03,950 INFO     ___FILE_ONLY___ NAME
+2021-03-14 02:06:03,950 INFO     ___FILE_ONLY___                                                              
+2021-03-14 02:06:03,950 INFO     ___FILE_ONLY___ LOCATION
+2021-03-14 02:06:03,950 INFO     ___FILE_ONLY___            
+2021-03-14 02:06:03,951 INFO     ___FILE_ONLY___ LOCATION_SCOPE
+2021-03-14 02:06:03,951 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,951 INFO     ___FILE_ONLY___ SIZE_GB
+2021-03-14 02:06:03,951 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,951 INFO     ___FILE_ONLY___ TYPE
+2021-03-14 02:06:03,951 INFO     ___FILE_ONLY___          
+2021-03-14 02:06:03,951 INFO     ___FILE_ONLY___ STATUS
+2021-03-14 02:06:03,951 INFO     ___FILE_ONLY___ 
+
+2021-03-14 02:06:03,951 INFO     ___FILE_ONLY___ gke-daehokimm-kubia-default-pool-a28d2d0e-158t
+2021-03-14 02:06:03,952 INFO     ___FILE_ONLY___                    
+2021-03-14 02:06:03,952 INFO     ___FILE_ONLY___ asia-northeast1-a
+2021-03-14 02:06:03,952 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,952 INFO     ___FILE_ONLY___ zone
+2021-03-14 02:06:03,952 INFO     ___FILE_ONLY___             
+2021-03-14 02:06:03,952 INFO     ___FILE_ONLY___ 100
+2021-03-14 02:06:03,952 INFO     ___FILE_ONLY___       
+2021-03-14 02:06:03,952 INFO     ___FILE_ONLY___ pd-standard
+2021-03-14 02:06:03,952 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,952 INFO     ___FILE_ONLY___ READY
+2021-03-14 02:06:03,952 INFO     ___FILE_ONLY___ 
+
+2021-03-14 02:06:03,953 INFO     ___FILE_ONLY___ gke-daehokimm-kubia-default-pool-a28d2d0e-4q7z
+2021-03-14 02:06:03,953 INFO     ___FILE_ONLY___                    
+2021-03-14 02:06:03,953 INFO     ___FILE_ONLY___ asia-northeast1-a
+2021-03-14 02:06:03,953 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,953 INFO     ___FILE_ONLY___ zone
+2021-03-14 02:06:03,953 INFO     ___FILE_ONLY___             
+2021-03-14 02:06:03,953 INFO     ___FILE_ONLY___ 100
+2021-03-14 02:06:03,953 INFO     ___FILE_ONLY___       
+2021-03-14 02:06:03,953 INFO     ___FILE_ONLY___ pd-standard
+2021-03-14 02:06:03,953 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,954 INFO     ___FILE_ONLY___ READY
+2021-03-14 02:06:03,954 INFO     ___FILE_ONLY___ 
+
+2021-03-14 02:06:03,954 INFO     ___FILE_ONLY___ gke-daehokimm-kubia-default-pool-a28d2d0e-pd52
+2021-03-14 02:06:03,954 INFO     ___FILE_ONLY___                    
+2021-03-14 02:06:03,954 INFO     ___FILE_ONLY___ asia-northeast1-a
+2021-03-14 02:06:03,954 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,954 INFO     ___FILE_ONLY___ zone
+2021-03-14 02:06:03,954 INFO     ___FILE_ONLY___             
+2021-03-14 02:06:03,954 INFO     ___FILE_ONLY___ 100
+2021-03-14 02:06:03,954 INFO     ___FILE_ONLY___       
+2021-03-14 02:06:03,955 INFO     ___FILE_ONLY___ pd-standard
+2021-03-14 02:06:03,955 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,955 INFO     ___FILE_ONLY___ READY
+2021-03-14 02:06:03,955 INFO     ___FILE_ONLY___ 
+
+2021-03-14 02:06:03,955 INFO     ___FILE_ONLY___ gke-dark-k8s-cluster-default-pool-a81a8788-m8kl
+2021-03-14 02:06:03,955 INFO     ___FILE_ONLY___                   
+2021-03-14 02:06:03,955 INFO     ___FILE_ONLY___ asia-northeast2-a
+2021-03-14 02:06:03,955 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,955 INFO     ___FILE_ONLY___ zone
+2021-03-14 02:06:03,955 INFO     ___FILE_ONLY___             
+2021-03-14 02:06:03,956 INFO     ___FILE_ONLY___ 100
+2021-03-14 02:06:03,956 INFO     ___FILE_ONLY___       
+2021-03-14 02:06:03,956 INFO     ___FILE_ONLY___ pd-standard
+2021-03-14 02:06:03,956 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,956 INFO     ___FILE_ONLY___ READY
+2021-03-14 02:06:03,956 INFO     ___FILE_ONLY___ 
+
+2021-03-14 02:06:03,956 INFO     ___FILE_ONLY___ gke-dark-k8s-cluster-e-pvc-e27cfbca-1925-410c-9c3b-09503c439400
+2021-03-14 02:06:03,956 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,956 INFO     ___FILE_ONLY___ asia-northeast2-a
+2021-03-14 02:06:03,956 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,956 INFO     ___FILE_ONLY___ zone
+2021-03-14 02:06:03,956 INFO     ___FILE_ONLY___             
+2021-03-14 02:06:03,957 INFO     ___FILE_ONLY___ 1
+2021-03-14 02:06:03,957 INFO     ___FILE_ONLY___         
+2021-03-14 02:06:03,957 INFO     ___FILE_ONLY___ pd-standard
+2021-03-14 02:06:03,957 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,957 INFO     ___FILE_ONLY___ READY
+2021-03-14 02:06:03,957 INFO     ___FILE_ONLY___ 
+
+2021-03-14 02:06:03,957 INFO     ___FILE_ONLY___ mongodb
+2021-03-14 02:06:03,957 INFO     ___FILE_ONLY___                                                           
+2021-03-14 02:06:03,957 INFO     ___FILE_ONLY___ asia-northeast2-a
+2021-03-14 02:06:03,957 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,957 INFO     ___FILE_ONLY___ zone
+2021-03-14 02:06:03,958 INFO     ___FILE_ONLY___             
+2021-03-14 02:06:03,958 INFO     ___FILE_ONLY___ 10
+2021-03-14 02:06:03,958 INFO     ___FILE_ONLY___        
+2021-03-14 02:06:03,958 INFO     ___FILE_ONLY___ pd-balanced
+2021-03-14 02:06:03,958 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,958 INFO     ___FILE_ONLY___ READY
+2021-03-14 02:06:03,958 INFO     ___FILE_ONLY___ 
+
+2021-03-14 02:06:03,958 INFO     ___FILE_ONLY___ gce-persistent-volume
+2021-03-14 02:06:03,958 INFO     ___FILE_ONLY___                                             
+2021-03-14 02:06:03,958 INFO     ___FILE_ONLY___ asia-northeast3-a
+2021-03-14 02:06:03,958 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,959 INFO     ___FILE_ONLY___ zone
+2021-03-14 02:06:03,959 INFO     ___FILE_ONLY___             
+2021-03-14 02:06:03,959 INFO     ___FILE_ONLY___ 10
+2021-03-14 02:06:03,959 INFO     ___FILE_ONLY___        
+2021-03-14 02:06:03,959 INFO     ___FILE_ONLY___ pd-standard
+2021-03-14 02:06:03,959 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,959 INFO     ___FILE_ONLY___ READY
+2021-03-14 02:06:03,959 INFO     ___FILE_ONLY___ 
+
+2021-03-14 02:06:03,959 INFO     ___FILE_ONLY___ gke-cluster-1-95869944-pvc-26b78fd7-4691-4846-91e3-bb775291a4c2
+2021-03-14 02:06:03,959 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,959 INFO     ___FILE_ONLY___ asia-northeast3-a
+2021-03-14 02:06:03,959 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,960 INFO     ___FILE_ONLY___ zone
+2021-03-14 02:06:03,960 INFO     ___FILE_ONLY___             
+2021-03-14 02:06:03,960 INFO     ___FILE_ONLY___ 10
+2021-03-14 02:06:03,960 INFO     ___FILE_ONLY___        
+2021-03-14 02:06:03,960 INFO     ___FILE_ONLY___ pd-standard
+2021-03-14 02:06:03,960 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,960 INFO     ___FILE_ONLY___ READY
+2021-03-14 02:06:03,960 INFO     ___FILE_ONLY___ 
+
+2021-03-14 02:06:03,960 INFO     ___FILE_ONLY___ gke-cluster-1-95869944-pvc-934ca16b-86ec-40a6-8129-ec1c3cb018ed
+2021-03-14 02:06:03,960 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,960 INFO     ___FILE_ONLY___ asia-northeast3-a
+2021-03-14 02:06:03,961 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,961 INFO     ___FILE_ONLY___ zone
+2021-03-14 02:06:03,961 INFO     ___FILE_ONLY___             
+2021-03-14 02:06:03,961 INFO     ___FILE_ONLY___ 10
+2021-03-14 02:06:03,961 INFO     ___FILE_ONLY___        
+2021-03-14 02:06:03,961 INFO     ___FILE_ONLY___ pd-standard
+2021-03-14 02:06:03,961 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,961 INFO     ___FILE_ONLY___ READY
+2021-03-14 02:06:03,961 INFO     ___FILE_ONLY___ 
+
+2021-03-14 02:06:03,961 INFO     ___FILE_ONLY___ gke-cluster-1-default-pool-532ee405-8c2t
+2021-03-14 02:06:03,961 INFO     ___FILE_ONLY___                          
+2021-03-14 02:06:03,962 INFO     ___FILE_ONLY___ asia-northeast3-a
+2021-03-14 02:06:03,962 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,962 INFO     ___FILE_ONLY___ zone
+2021-03-14 02:06:03,962 INFO     ___FILE_ONLY___             
+2021-03-14 02:06:03,962 INFO     ___FILE_ONLY___ 100
+2021-03-14 02:06:03,962 INFO     ___FILE_ONLY___       
+2021-03-14 02:06:03,962 INFO     ___FILE_ONLY___ pd-standard
+2021-03-14 02:06:03,962 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,962 INFO     ___FILE_ONLY___ READY
+2021-03-14 02:06:03,962 INFO     ___FILE_ONLY___ 
+
+2021-03-14 02:06:03,962 INFO     ___FILE_ONLY___ gke-cluster-1-default-pool-532ee405-bltm
+2021-03-14 02:06:03,963 INFO     ___FILE_ONLY___                          
+2021-03-14 02:06:03,963 INFO     ___FILE_ONLY___ asia-northeast3-a
+2021-03-14 02:06:03,963 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,963 INFO     ___FILE_ONLY___ zone
+2021-03-14 02:06:03,963 INFO     ___FILE_ONLY___             
+2021-03-14 02:06:03,963 INFO     ___FILE_ONLY___ 100
+2021-03-14 02:06:03,963 INFO     ___FILE_ONLY___       
+2021-03-14 02:06:03,963 INFO     ___FILE_ONLY___ pd-standard
+2021-03-14 02:06:03,963 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,963 INFO     ___FILE_ONLY___ READY
+2021-03-14 02:06:03,963 INFO     ___FILE_ONLY___ 
+
+2021-03-14 02:06:03,964 INFO     ___FILE_ONLY___ gke-cluster-1-default-pool-532ee405-d8lx
+2021-03-14 02:06:03,964 INFO     ___FILE_ONLY___                          
+2021-03-14 02:06:03,964 INFO     ___FILE_ONLY___ asia-northeast3-a
+2021-03-14 02:06:03,964 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,964 INFO     ___FILE_ONLY___ zone
+2021-03-14 02:06:03,964 INFO     ___FILE_ONLY___             
+2021-03-14 02:06:03,964 INFO     ___FILE_ONLY___ 100
+2021-03-14 02:06:03,964 INFO     ___FILE_ONLY___       
+2021-03-14 02:06:03,964 INFO     ___FILE_ONLY___ pd-standard
+2021-03-14 02:06:03,964 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,965 INFO     ___FILE_ONLY___ READY
+2021-03-14 02:06:03,965 INFO     ___FILE_ONLY___ 
+
+2021-03-14 02:06:03,965 INFO     ___FILE_ONLY___ gke-jaehun-k8s-cluster-1-default-pool-da248339-1vkg
+2021-03-14 02:06:03,965 INFO     ___FILE_ONLY___               
+2021-03-14 02:06:03,965 INFO     ___FILE_ONLY___ asia-northeast3-a
+2021-03-14 02:06:03,965 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,965 INFO     ___FILE_ONLY___ zone
+2021-03-14 02:06:03,966 INFO     ___FILE_ONLY___             
+2021-03-14 02:06:03,966 INFO     ___FILE_ONLY___ 100
+2021-03-14 02:06:03,966 INFO     ___FILE_ONLY___       
+2021-03-14 02:06:03,966 INFO     ___FILE_ONLY___ pd-standard
+2021-03-14 02:06:03,966 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,966 INFO     ___FILE_ONLY___ READY
+2021-03-14 02:06:03,966 INFO     ___FILE_ONLY___ 
+
+2021-03-14 02:06:03,966 INFO     ___FILE_ONLY___ gke-jaehun-k8s-cluster-1-default-pool-ebdd6a74-ht3r
+2021-03-14 02:06:03,966 INFO     ___FILE_ONLY___               
+2021-03-14 02:06:03,966 INFO     ___FILE_ONLY___ asia-northeast3-c
+2021-03-14 02:06:03,966 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,967 INFO     ___FILE_ONLY___ zone
+2021-03-14 02:06:03,967 INFO     ___FILE_ONLY___             
+2021-03-14 02:06:03,967 INFO     ___FILE_ONLY___ 100
+2021-03-14 02:06:03,967 INFO     ___FILE_ONLY___       
+2021-03-14 02:06:03,967 INFO     ___FILE_ONLY___ pd-standard
+2021-03-14 02:06:03,967 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,967 INFO     ___FILE_ONLY___ READY
+2021-03-14 02:06:03,967 INFO     ___FILE_ONLY___ 
+
+2021-03-14 02:06:03,967 INFO     ___FILE_ONLY___ gke-jaehun-k8s-cluster-1-default-pool-0cfe47f5-v185
+2021-03-14 02:06:03,967 INFO     ___FILE_ONLY___               
+2021-03-14 02:06:03,967 INFO     ___FILE_ONLY___ asia-northeast3-b
+2021-03-14 02:06:03,967 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,968 INFO     ___FILE_ONLY___ zone
+2021-03-14 02:06:03,968 INFO     ___FILE_ONLY___             
+2021-03-14 02:06:03,968 INFO     ___FILE_ONLY___ 100
+2021-03-14 02:06:03,968 INFO     ___FILE_ONLY___       
+2021-03-14 02:06:03,968 INFO     ___FILE_ONLY___ pd-standard
+2021-03-14 02:06:03,968 INFO     ___FILE_ONLY___   
+2021-03-14 02:06:03,968 INFO     ___FILE_ONLY___ READY
+2021-03-14 02:06:03,968 INFO     ___FILE_ONLY___ 
+
+2021-03-14 02:06:03,978 DEBUG    root            Metrics reporting process started...
