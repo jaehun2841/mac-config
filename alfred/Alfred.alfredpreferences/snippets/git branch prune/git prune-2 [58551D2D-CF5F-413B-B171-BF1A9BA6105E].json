@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "git branch -vv | grep 'origin\/.*: 없음]' | awk '{print $1}' | xargs git branch -D",
+    "uid" : "58551D2D-CF5F-413B-B171-BF1A9BA6105E",
+    "name" : "git prune-2",
+    "keyword" : ""
+  }
+}

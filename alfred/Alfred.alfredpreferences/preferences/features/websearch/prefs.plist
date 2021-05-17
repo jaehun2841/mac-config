@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customSites</key>
+	<dict>
+		<key>0A5FB920-C353-4B17-8303-2F690ABBA411</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>wk</string>
+			<key>text</key>
+			<string>공통시스템개발팀 위키</string>
+			<key>url</key>
+			<string>https://wiki.woowa.in/display/COMDEV</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>1BBF9F0D-8F11-4387-AA77-DB6ECD502245</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>jira</string>
+			<key>text</key>
+			<string>jira &gt; backlog</string>
+			<key>url</key>
+			<string>https://jira.woowa.in/secure/RapidBoard.jspa?rapidView=994&amp;projectKey=COMDEV&amp;view=planning</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>2E996FBC-883E-46A4-947B-7C144A1E1D05</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>office</string>
+			<key>text</key>
+			<string>우아한오피스</string>
+			<key>url</key>
+			<string>https://office.woowa.in</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>34DB8602-56F8-48D0-ACE1-D17CFFFDB0BD</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>biz</string>
+			<key>text</key>
+			<string>LGCNS 비즈톡 포탈</string>
+			<key>url</key>
+			<string>https://bizmsg.lgcns.com</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>4C4F483F-BB7A-4CB8-BECB-43F58B33538E</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>wiki</string>
+			<key>text</key>
+			<string>우아한형제들 wiki</string>
+			<key>url</key>
+			<string>https://wiki.woowa.in/display/COMDEV</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>513CC647-36CC-49DA-9170-F97479AD7ED3</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>hr</string>
+			<key>text</key>
+			<string>우아한 인사</string>
+			<key>url</key>
+			<string>https://hellohr.woowa.in/</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>58C240CF-0E49-4FE6-A2CB-1B24F66898D7</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>cc</string>
+			<key>text</key>
+			<string>업무 캘린더</string>
+			<key>url</key>
+			<string>https://calendar.google.com/calendar</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>65B4E45F-08D5-44C6-BD72-D833C2B58876</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>jaehun</string>
+			<key>text</key>
+			<string>Carrey`s 기술블로그</string>
+			<key>url</key>
+			<string>https://jaehun2841.github.io</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>761B60C2-278A-4690-A737-5A517C672F99</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>jira</string>
+			<key>text</key>
+			<string>jira &gt; sprint</string>
+			<key>url</key>
+			<string>https://jira.woowa.in/secure/RapidBoard.jspa?rapidView=994&amp;projectKey=COMDEV</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>DE50E722-5353-4A3D-943D-6E6A30F5F35A</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>git</string>
+			<key>text</key>
+			<string>gitlab</string>
+			<key>url</key>
+			<string>https://git.baemin.in/</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
